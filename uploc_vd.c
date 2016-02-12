@@ -107,9 +107,6 @@ int main(int argc, char *argv[]){
 	
 
 	printf("Mean time per coordinate: %f us\n", diff);
-
-
-	printf("this is the first element in x: %f \n\n",x[0]);
 	double chksum = sum(x,size) + sum(y,size) + sum(z,size);
 	printf("Final checksum is: %f \n",chksum);
 	return 0;
